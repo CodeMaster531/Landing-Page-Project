@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgba(128, 128, 128, 0.125);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    /* justify-content: space-between; */
+    background-color: white;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.15);
+    height: 90px;
+}
+.navbar h3{
+    font-family: Titillium Web;
+    font-size: 40px;
+}
+.logo{
+    margin-left: 160px;
+    border-radius: 50%;
+    width: 60px;
+}
+.home{
+    width: 400px;
+}
+.welcome{
+    font-family: Titillium Web;
+    border-radius: 13px;
+    padding: 20px;
+    background-color: white;
+    width: 400px;
+    position:absolute;
+    top: 20%;
+    left: 20%;
+    flex-direction: column;
+    line-height: 2px;
+}
+.welcome h1{
+    font-size: 40px;
+}
+.welcome p{
+    font-size: 20px;
+}
+.input{
+    border: 1px solid  rgba(128, 128, 128, 0.125);
+    border-radius: 4px;
+    padding: 8px;
+}
+.input::placeholder{
+    font-family: Titillium Web;
+    color: gray;
+    font-size: 12px;
+}
+.continue{
+    margin-top: 16px;
+    border-radius: 12px;
+    font-family: Titillium Web;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    border: none;
+    padding: 8px;
+    background-color: #87000D;
+}
+.address{
+    font-family: Titillium Web;
+    border-radius: 13px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 435px;
+    position:absolute;
+    top:55%;
+    left: 20%;
+}
+.address h1{
+    margin-left: 15px;
+}
+.payment{
+    font-family: Titillium Web;
+    border-radius: 13px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 435px;
+    position:absolute;
+    top: 69%;
+    left: 20%;
+}
+.payment h1{
+    margin-left: 15px;
+}
+.cart-summary{
+    border-radius: 13px;
+    position: absolute;
+    top: 20%;
+    left: 53%;
+    height: 427px;
+    width: 500px;
+    padding-bottom: 170px;
+    background-color: white;
+}
+.cart-summary h1{
+    font-family: Titillium Web;
+    overflow: hidden;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+    margin-top: 0px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.15);
+}
+.order{
+    margin-bottom: 20px;
+    border-radius: 13px;
+    display: flex;
+    line-height: 2px;
+    justify-content: center;
+    padding: 6px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: column;
+    font-family: Titillium Web;
+    background-color:  rgba(128, 128, 128, 0.125);
+}
+.div1{
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+}
+.div{
+    font-family: Titillium Web;
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+}
+.pizza-size,.pizza-price{
+    font-weight: bolder;
+}
+.pizza-size{
+    margin-left: 13px;
+}
+.pizza1{
+    width: 100px;
+}
