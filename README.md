@@ -21,5 +21,5 @@ A modern, responsive landing page for a pizza restaurant called Cheese Oven. Thi
 2. **Open `index.html` in your browser**
 
 ## Live Demo
-[💻Live Demo]([https://your-demo-url.com](https://abhijeetbhale.github.io/Landing-Page-Project-Cheese-Oven/))
+[💻Live Demo](https://abhijeetbhale.github.io/Landing-Page-Project-Cheese-Oven/)
 
