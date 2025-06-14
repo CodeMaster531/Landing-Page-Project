@@ -35,6 +35,3 @@ A modern, responsive landing page for a pizza restaurant called Cheese Oven. Thi
 
 [💻 Live Demo](https://abhijeetbhale.github.io/Landing-Page-Project-Cheese-Oven/)
 
-## 📸 Screenshot
-
-![Cheese Oven Landing Page](screenshots/cheese-oven-home.png)
