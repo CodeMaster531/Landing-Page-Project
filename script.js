@@ -6,7 +6,6 @@ function addToCart(){
     cart+=1;
     display.textContent = `${cart}`;
     console.log(`Cart: ${cart}`);
-    console.log('hello');
 }
 
 
